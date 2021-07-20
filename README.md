@@ -37,10 +37,10 @@ $ git config --global user.email "Email"
 
 Save credintial
 ---------------
-# Make Git store the username and password and it will never ask for them.
+Make Git store the username and password and it will never ask for them.
 $ git config --global credential.helper store
 
-# Save the username and password for a session (cache it);
+Save the username and password for a session (cache it);
 $ git config --global credential.helper cache
 
 # You can also set a timeout for the above setting
